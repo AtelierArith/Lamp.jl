@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.8.0",
+    "purgecss": "^5.0.0"
+  }
+}

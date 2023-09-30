@@ -1,0 +1,22 @@
+name = "Lamp"
+uuid = "6285921f-71b6-484c-b6e9-9434803d850d"
+authors = ["Satoshi Terasaki <terasakisatoshi.math@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+GenieFramework = "a59fdf5c-6bf0-4f5d-949c-a137c9e2f353"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+RandomLogos = "ae2b3ca2-baa9-4ff5-b4d2-d3fa2d2d37cc"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

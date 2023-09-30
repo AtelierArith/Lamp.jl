@@ -1,0 +1,4 @@
+[deps]
+LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
+NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
+Remark = "79b45036-8e38-5d04-8f49-b9fb23ff5a0d"

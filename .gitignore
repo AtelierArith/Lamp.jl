@@ -1,0 +1,12 @@
+*.gif
+.DS_Store
+/docs/Manifest.toml
+/docs/build/
+docs/build/
+docs/site/
+# Genie
+config
+log
+# PkgPage
+node_modules
+package-lock.json

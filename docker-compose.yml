@@ -1,0 +1,25 @@
+version: '3'
+services:
+  shell:
+    image: lampjl
+    container_name: lampjl-shell
+    working_dir: /app
+    command: /bin/bash
+
+  docs:
+    image: lampjl
+    container_name: lampjl-docs
+    volumes:
+      - ./:/page
+    working_dir: /page
+    ports:
+      - "8000:8000"
+    command: julia --project=@. -e 'using LiveServer; serve(dir="page/__site", host="0.0.0.0")'
+
+  app:
+    image: lampjl
+    container_name: lampjl-app
+    working_dir: /app
+    ports:
+      - "8080:8080"
+    command: julia --project=/app server.jl
