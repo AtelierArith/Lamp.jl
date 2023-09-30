@@ -1,6 +1,7 @@
 # Lamp.jl
 
-<img width="500" alt="image" src="https://github.com/AtelierArith/Lamp.jl/assets/16760547/d0ea7a2b-6826-4bcd-bba9-eb04f4b2224c">
+![](https://user-images.githubusercontent.com/16760547/271754534-c773d508-0f06-4cb5-9612-f2b7743dd8d6.png)
+
 
 - This package provides a web application that generates a random logo powered by [RandomLogos.jl](https://github.com/AtelierArith/RandomLogos.jl).
 - It also gives an example how to use [Genie.jl (V5)](https://github.com/GenieFramework/Genie.jl) and [GenieFramework.jl](https://learn.genieframework.com/guides/).
