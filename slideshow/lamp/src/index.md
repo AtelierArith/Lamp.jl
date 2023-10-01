@@ -175,7 +175,7 @@ catdist = Categorical([0.5, 0.5])
 - Why don't you use Julia? :thinking:
 	- いつ試すの？今でしょ？
 	- https://github.com/AtelierArith/VisualAtom.jl
-
+	- https://github.com/AtelierArith/SegRCDB.jl
 ---
 
 ![bg auto](https://user-images.githubusercontent.com/16760547/271760015-de18114c-cd1a-43f9-b756-9a9252839f5f.png)
