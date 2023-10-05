@@ -19,5 +19,6 @@
 
 - Slideshow
   - [JuliaTokai The 1st of October, 2023](slideshow/lamp/build)
+  - [Happy ♾️](slideshow/art/build)
 
 \end{section}
