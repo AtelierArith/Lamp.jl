@@ -1,17 +1,3 @@
-#=
-
-using Remark
-
-for d in
-    ["lamp"]
-    Remark.slideshow(
-        joinpath(@__DIR__, d);
-        options=Dict("ratio" => "16:9"), title="Lamp.jl",
-    )
-end
-
-=#
-
 using NodeJS
 
 run(`$(npm_cmd()) install --save-dev @marp-team/marp-cli`)
@@ -22,6 +8,8 @@ function npx_cmd()
     `$npx_executable_path`
 end
 
-mdfile = joinpath(@__DIR__, "lamp/src/index.md")
-themefile = joinpath(@__DIR__, "lamp/src/custom.css")
-run(`$(npx_cmd()) @marp-team/marp-cli $(mdfile) --theme $(themefile)`)
+for d in ["lamp", "art"]
+    mdfile = joinpath(@__DIR__, "$(d)/src/index.md")
+    themefile = joinpath(@__DIR__, "$(d)/src/custom.css")
+    run(`$(npx_cmd()) @marp-team/marp-cli $(mdfile) --theme $(themefile)`)
+end
