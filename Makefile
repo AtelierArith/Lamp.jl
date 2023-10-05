@@ -16,12 +16,16 @@ slideshow:
 	julia --project=slideshow slideshow/make.jl
 	mkdir -p slideshow/lamp/build
 	mv slideshow/lamp/src/index.html slideshow/lamp/build/index.html
+	cp -r slideshow/art/src slideshow/art/build
 
 page: slideshow
 	julia --project=page -e 'import Pkg; Pkg.instantiate()'
 	julia --project=page page/make.jl
 	mkdir -p page/__site/slideshow/lamp/build
+	mkdir -p page/__site/slideshow/art/build
 	cp -r slideshow/lamp/build page/__site/slideshow/lamp
+	cp -r slideshow/art/build page/__site/slideshow/art
+
 
 docs: page
 	julia --project=page -e 'using LiveServer; serve(dir="page/__site")'
@@ -37,3 +41,4 @@ clean:
 	-rm -rf config
 	-rm -rf node_modules package-lock.json pages/__site
 	-rm -rf log
+	-rm -rf slideshow/*/build
