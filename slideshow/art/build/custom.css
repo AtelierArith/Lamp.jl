@@ -1,0 +1,11 @@
+/* @theme custom */
+
+@import 'uncover';
+
+section p{
+    font-size: 35px;
+}
+
+section li {
+    font-size:32px;
+}
