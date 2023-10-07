@@ -217,4 +217,11 @@ julia> using Random; 🌾=9999; rng = Xoshiro(🌾); rand(rng, ["オモテ", "�
 
 数字が異なれば異なる結果を出す(異なる絵を出す)
 
-みなさんの個性から素敵なアート🎨を作ってくださいね。
+- みなさんの個性から素敵なアート🎨を作ってくださいね.
+- 欲を言えばプログラミング言語 Julia に触ってもらえると嬉しいな（るんるん）
+
+---
+
+# Appendix
+
+- 皆さんに配布した絵柄を再現するノートブックは [こちら](https://htmlview.glitch.me/?https://gist.github.com/terasakisatoshi/35fa0311348506c42efa381a57bb5c47#file-happy_infinity_public-html) にあります.
