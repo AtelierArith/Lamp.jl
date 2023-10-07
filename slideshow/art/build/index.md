@@ -225,3 +225,4 @@ julia> using Random; 🌾=9999; rng = Xoshiro(🌾); rand(rng, ["オモテ", "�
 # Appendix
 
 - 皆さんに配布した絵柄を再現するノートブックは [こちら](https://htmlview.glitch.me/?https://gist.github.com/terasakisatoshi/35fa0311348506c42efa381a57bb5c47#file-happy_infinity_public-html) にあります.
+- カラフルな壁紙を作りたい場合は[こちら](https://atelierarith.github.io/julia_tutorial_pluto_materials/random_logos.html)
